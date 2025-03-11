@@ -1,6 +1,7 @@
 def binary_search(arr: list, target: int) -> int:
     '''
     Implements binay search
+    This algo time complexity is O(log n) since at every step, the search space is divide by 2.
 
     Args:
     arr (list): list to be searched
