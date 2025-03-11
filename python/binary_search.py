@@ -1,4 +1,15 @@
 def binary_search(arr: list, target: int) -> int:
+    '''
+    Implements binay search
+
+    Args:
+    arr (list): list to be searched
+    target (int): num target
+
+    Returns
+    int: index where target is located in arr
+    returns -1 if target is not in arr
+    '''
 
     head_i = 0
     tail_i = len(arr)-1
